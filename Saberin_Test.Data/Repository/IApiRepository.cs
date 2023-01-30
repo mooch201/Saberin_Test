@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Saberin_Test.Data.Models;
+﻿using Saberin_Test.Data.Models;
 
 namespace Saberin_Test.Data.Repository
 {

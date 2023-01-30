@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add service for the new repo
 builder.Services.AddSingleton<IApiRepository, ApiRepository>();
-builder.Services.AddDbContext<ApiContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
